@@ -13,6 +13,12 @@ const SvgContainer = styled.div<{
     & .fill-secondary {
       fill: ${(props) => props.theme.colours.secondary};
     }
+    & .stroke-primary {
+      stroke: ${(props) => props.theme.colours.primary};
+    }
+    & .stroke-secondary {
+      stroke: ${(props) => props.theme.colours.secondary};
+    }
   }
 `
 

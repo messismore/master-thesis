@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1129 626" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-23169,-7461)">
+        <g id="Trained-to-do-vs-actually-do"  transform="matrix(1.17326,0,0,1.13165,-4187.18,-1065.34)">
+            <g  class="fill-primary" transform="matrix(0.427992,0,0,0.443731,14650.6,4640.51)">
+                <text x="20388.7px" y="7160.83px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">what computers</text>
+                <text x="20388.7px" y="7219.89px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">are good at</text>
+            </g>
+            <g  class="fill-primary" transform="matrix(0.852324,0,0,0.883668,5672.06,1095.84)">
+                <circle cx="20748.9" cy="7612.93" r="11.811" />
+            </g>
+            <g  class="fill-secondary" transform="matrix(0.852324,0,0,0.883668,5672.06,1179.34)">
+                <circle cx="20748.9" cy="7612.93" r="11.811" />
+            </g>
+            <g  class="stroke-secondary" transform="matrix(1.70465,0,0,1.76734,-11410,-4940.49)">
+                <circle cx="20689.8" cy="7246.78" r="118.11" style="fill:none;stroke-width:1.56px;"/>
+            </g>
+            <g  class="stroke-primary" transform="matrix(1.70465,0,0,1.76734,-11208.6,-4940.49)">
+                <circle cx="20689.8" cy="7246.78" r="118.11" style="fill:none;stroke-width:1.56px;"/>
+            </g>
+            <g class="fill-secondary" transform="matrix(0.427992,0,0,0.443731,14636.1,4724.01)">
+                <text x="20422.5px" y="7160.83px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">what humans</text>
+                <text x="20422.5px" y="7219.89px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">are good at</text>
+            </g>
+            <g class="fill-secondary" transform="matrix(0.427992,0,0,0.443731,15056.5,4395.55)">
+                <text x="20444.1px" y="7160.83px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">what we're</text>
+                <text x="20422.5px" y="7219.89px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">trained to do</text>
+            </g>
+            <g class="fill-primary" transform="matrix(0.427992,0,0,0.443731,15266.1,4392.14)">
+                <text x="20454.1px" y="7160.83px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">what we</text>
+                <text x="20422.5px" y="7219.89px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">actually do</text>
+            </g>
+            <g class="fill-secondary" transform="matrix(0.427992,0,0,0.443731,14957,4588.2)">
+                <text x="20497.8px" y="7160.83px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">high level</text>
+                <text x="20422.5px" y="7219.89px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">conceptualising</text>
+            </g>
+            <g class="fill-secondary" transform="matrix(0.427992,0,0,0.443731,14928.1,4695.61)">
+                <text x="20422.5px" y="7160.83px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">creative synthesis</text>
+            </g>
+            <g class="fill-secondary" transform="matrix(0.427992,0,0,0.443731,14965.4,4792.11)">
+                <text x="20422.5px" y="7160.83px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">orchestration</text>
+            </g>
+            <g class="fill-secondary" transform="matrix(0.427992,0,0,0.443731,15164.6,4669.24)">
+                <text x="20493.8px" y="7160.83px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">craft</text>
+                <text x="20421.8px" y="7219.89px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">misleading</text>
+                <text x="20441.1px" y="7278.94px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">diagrams</text>
+            </g>
+            <g  class="fill-primary" transform="matrix(0.427992,0,0,0.443731,15360.2,4588.26)">
+                <path d="M20534.3,7160.83L20542.7,7160.83L20542.7,7141.95L20547.7,7141.95L20547.7,7136.21L20542.7,7136.21L20542.7,7134.04C20542.7,7132.44 20543.5,7131.36 20545.5,7131.36C20546.4,7131.36 20547.1,7131.45 20547.7,7131.64L20547.7,7125.47C20546.6,7125.19 20545.5,7125 20543.9,7125C20538.1,7125 20534.3,7127.92 20534.3,7134.04L20534.3,7136.21L20531.2,7136.21L20531.2,7141.95L20534.3,7141.95L20534.3,7160.83Z" style="fill:rgb(0,56,187);"/>
+                <text x="20422.5px" y="7160.83px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">mail files</text>
+            </g>
+            <g  class="fill-primary" transform="matrix(0.427992,0,0,0.443731,15400,4636.23)">
+                <text x="20422.5px" y="7160.83px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">Excel</text>
+            </g>
+            <g  class="fill-primary" transform="matrix(0.427992,0,0,0.443731,15314.2,4684.19)">
+                <text x="20479.7px" y="7160.83px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">recreate models</text>
+                <text x="20529.4px" y="7219.89px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">for different</text>
+                <text x="20565.5px" y="7278.94px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">software</text>
+            </g>
+            <g  class="fill-primary" transform="matrix(0.427992,0,0,0.443731,15392.8,4792.01)">
+                <text x="20422.5px" y="7160.83px" style="font-family:'Graphik-Bold', 'Graphik', sans-serif;font-weight:700;font-size:47.083px;">Excel</text>
+            </g>
+        </g>
+    </g>
+</svg>
