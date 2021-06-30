@@ -8,6 +8,7 @@ import List from './List'
 import Slide from './Slide'
 import SlideHeader from './SlideHeader'
 import Svg from './Svg'
+import TestDashboard from './TestDashboard'
 import Title from './Title'
 
 /* Images */
@@ -16,6 +17,8 @@ import { ReactComponent as VersionControl } from './version-control.svg'
 import { ReactComponent as Pipeline } from './pipeline.svg'
 import { ReactComponent as IterativeModel } from './iterative-model.svg'
 import { ReactComponent as WaterfallModel } from './waterfall-model.svg'
+
+import ghUnitTestSuccess from './gh-unit-test-success'
 
 function App() {
   return (
@@ -131,22 +134,7 @@ function App() {
         </Slide>
         <Slide>
           <FlexContainer direction="column">
-            <div>
-              <SlideHeader>Project Dashboard</SlideHeader>
-              <List>
-                <li>✅ BGF</li>
-                <li>
-                  ⚠️ Rettungswege
-                  <br /> Zulassung im Einzelfall notwendig
-                </li>
-                <li>❌ Abstandsflächen </li>
-                <li>
-                  💡 Wohnungsschlüssel️
-                  <br /> Typ A zu 15% unterschritten
-                </li>
-                <li>…</li>
-              </List>
-            </div>
+            <TestDashboard unitTestSuccess={ghUnitTestSuccess} />
           </FlexContainer>
         </Slide>
         <Slide>
