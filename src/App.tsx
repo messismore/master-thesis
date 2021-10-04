@@ -195,7 +195,10 @@ function App() {
                 <br />
                 (Reacting to new insights / requirement changes)
               </li>
-              <li>As complexity increases</li>
+              <li>
+                As complexity increases this approach
+                <br /> produces worse results
+              </li>
             </List>
           </FlexContainer>
         </Slide>
@@ -220,7 +223,7 @@ function App() {
           <FlexContainer direction="column">
             <img src="/assets/hops-overview.png" width="1000" />
             <List>
-              <li>Headless Rhino, called over an Web Api</li>
+              <li>Headless Rhino, called over a Web Api</li>
               <li>Deployed on a local server on in the cloud</li>
               <li>Functions can be either Grasshopper scripts or code</li>
               <li>Can integrate with web apps!</li>
@@ -246,7 +249,15 @@ function App() {
           <FlexContainer>
             <img src="/assets/hypar.png" width="40%" />
             <List>
-              <li>Tries to do the same thing</li>
+              <li>
+                Compose Buildings from funcional modules <br />
+                (think a façade module, a roofing module…)
+              </li>
+              <li>
+                Surfaces an inherent problem in the balance
+                <br /> between engineering and craft: <br />
+                <em>«The Tyranny of the Default»</em>
+              </li>
               <li>Mainly closed source</li>
             </List>
           </FlexContainer>
@@ -267,19 +278,37 @@ function App() {
             </List>
           </List>
           <div>
-            <h3>Curiousnesses:</h3>
+            <h3>Curiousities:</h3>
             <List>
               <li>
                 Design ≠ Engineering!
                 <br /> Good architecture is complex, contradictory,
                 idiosyncratic.
                 <br />
-                Do we run danger of optimising out the humanity?
+                Do we run danger of optimising out the humanity? <br />
+                (see also:
+                <em>The Tyranny of the Default</em>)
               </li>
               <li>How do tools affect the way we think.</li>
               <li>Design systems</li>
             </List>
           </div>
+        </Slide>
+        <Slide>
+          <SlideHeader>
+            More Unstructured Interests, rambling thoughts:
+          </SlideHeader>
+          <List>
+            <li>
+              Orchestration: How to manage the parts of our Internet of
+              Construction. Microservices?
+            </li>
+            <li>
+              And adjacent to that: How can we make these things nimble and
+              pluggable, so that small shops can use them and not only the
+              juggernauts
+            </li>
+          </List>
         </Slide>
       </ThemeProvider>
     </div>
