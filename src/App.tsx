@@ -25,13 +25,12 @@ function App() {
     <div className="App">
       <ThemeProvider theme={theme}>
         <Slide>
-          <FlexContainer>
-            <Title>
-              Why aren't <em>we</em> doing this?!
-            </Title>
+          <FlexContainer direction="column">
+            <Title>Greener Grass</Title>
+            <span>CI/CD in early design stages (and why we need it)</span>
           </FlexContainer>
         </Slide>
-        <Slide>
+        {/* <Slide>
           <SlideHeader>How to follow this talk</SlideHeader>
           <FlexContainer direction={'column'}>
             <div>
@@ -46,7 +45,7 @@ function App() {
               </List>
             </div>
           </FlexContainer>
-        </Slide>
+        </Slide> */}
         <Slide>
           <FlexContainer>
             <Svg image={VennDiagram} />
@@ -56,12 +55,15 @@ function App() {
           <SlideHeader>Greener Grass…</SlideHeader>
           <FlexContainer>
             <img src="/assets/greener-grass.png" width="25%" />
-            <List>
-              <li>Version Control</li>
-              <li>Modules and Functions</li>
-              <li>Continuous Integration / Continuous Delivery</li>
-              <li>Unit tests and Test Driven Development</li>
-            </List>
+            <div>
+              Managing Complexity in Software Development
+              <List>
+                <li>Version Control</li>
+                <li>Functionality Modules</li>
+                <li>Continuous Integration / Continuous Delivery</li>
+                <li>Unit tests and Test Driven Development</li>
+              </List>
+            </div>
           </FlexContainer>
         </Slide>
 
@@ -85,9 +87,10 @@ function App() {
         </Slide>
 
         <Slide>
-          <SlideHeader>Atoms vs. Modules</SlideHeader>
+          <SlideHeader>Modules vs. Atoms</SlideHeader>
           <FlexContainer>
             <img src="/assets/grasshopper-nodes.png" height="400" />
+
             <List>
               <li>Composed and composable</li>
               <li>Reusable</li>
@@ -138,6 +141,11 @@ function App() {
           </FlexContainer>
         </Slide>
         <Slide>
+          <FlexContainer>
+            <Title>How can we get there?</Title>
+          </FlexContainer>
+        </Slide>
+        <Slide>
           <SlideHeader>The Internet of Construction</SlideHeader>
           "The Future of Revit is an API"
           <FlexContainer>
@@ -152,7 +160,7 @@ function App() {
               </a>
             </FlexContainer>
             <List>
-              <li>A network of federated digital models</li>
+              <li>Status quo: Network of federated digital models</li>
               <li>APIs</li>
               <li>Services not Products</li>
               <li>
@@ -165,9 +173,7 @@ function App() {
 
         <Slide>
           <FlexContainer>
-            <Title>
-              Again, why <em>aren't</em> we doing this?!
-            </Title>
+            <Title>So what's stopping us?</Title>
           </FlexContainer>
         </Slide>
         <Slide>
@@ -210,12 +216,17 @@ function App() {
               Iterative
             </FlexContainer>
             <List>
+              <li>React to new insights and requirements</li>
               <li>
-                Flexibel auf neue Erkenntnisse und Anforderungen reagieren.
+                Hard and soft requirements building code, physics, programme
               </li>
-              <li>Harte und weiche Anforderungen Baurecht, Physik, Programm</li>
               <li>«Agile Project Management»</li>
             </List>
+          </FlexContainer>
+        </Slide>
+        <Slide>
+          <FlexContainer>
+            <Title>Building Blocks of an Internet of Construction</Title>
           </FlexContainer>
         </Slide>
         <Slide>
@@ -223,7 +234,9 @@ function App() {
           <FlexContainer direction="column">
             <img src="/assets/hops-overview.png" width="1000" />
             <List>
-              <li>Headless Rhino, called over a Web Api</li>
+              <li>
+                <s>Headless</s> Rhino, called over a Web Api
+              </li>
               <li>Deployed on a local server on in the cloud</li>
               <li>Functions can be either Grasshopper scripts or code</li>
               <li>Can integrate with web apps!</li>
@@ -267,8 +280,42 @@ function App() {
           <FlexContainer>¯\_(ツ)_/¯</FlexContainer>
         </Slide>
         <Slide>
-          <SlideHeader>What this could be…</SlideHeader>
-          <List>
+          <FlexContainer>
+            <Title>Now what</Title>
+          </FlexContainer>
+        </Slide>
+        <Slide>
+          <SlideHeader>Possible Avenues</SlideHeader>
+          <FlexContainer>
+            <img src="/assets/pipeline.png" width="40%" />
+            <div>
+              <List>
+                Build a pipeline, solve one or two pain points
+                <li>Figma Connector or SVG Transport</li>
+                <li>Build a test runner / engine for serverless functions</li>
+                <li>Project Dashboard</li> with simple queries?
+                <li>
+                  Build a couple <em>Design Services</em> plugged into different
+                  <br />
+                  points along the design process:
+                  <List>
+                    <li>Room connectivity graph?</li>
+                    <li>Escape routes?</li>
+                    <li>A11y for architecture?</li>
+                  </List>
+                </li>
+                <li>
+                  Investigate interop: Spectle's schema is intentionally <br />
+                  fluid. How connect apps to such data? <em>"Data Shaper"?</em>
+                </li>
+                <li>How to bundle up continuous integration?</li>
+              </List>
+            </div>
+          </FlexContainer>
+        </Slide>
+        <Slide>
+          <SlideHeader>Curiosities…</SlideHeader>
+          {/* <List>
             <li>A Taxonomy</li>
             <li>An example project and pipeline</li>
             <li>A design automation service</li>
@@ -276,9 +323,8 @@ function App() {
               <li>Unit tests</li>
               <li>Artefact Creation</li>
             </List>
-          </List>
+          </List> */}
           <div>
-            <h3>Curiousities:</h3>
             <List>
               <li>
                 Design ≠ Engineering!
@@ -289,12 +335,12 @@ function App() {
                 (see also:
                 <em>The Tyranny of the Default</em>)
               </li>
-              <li>How do tools affect the way we think.</li>
+              <li>How do tools affect the way we think?</li>
               <li>Design systems</li>
             </List>
           </div>
         </Slide>
-        <Slide>
+        {/* <Slide>
           <SlideHeader>
             More Unstructured Interests, rambling thoughts:
           </SlideHeader>
@@ -309,7 +355,7 @@ function App() {
               juggernauts
             </li>
           </List>
-        </Slide>
+        </Slide> */}
       </ThemeProvider>
     </div>
   )
