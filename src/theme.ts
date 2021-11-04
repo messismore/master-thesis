@@ -26,8 +26,8 @@ const theme: Theme = {
     text: 'rgb(10, 12, 16)',
   },
   fonts: {
-    body: 'Graphik',
-    heading: 'Graphik',
+    body: 'Graphik, sans-serif',
+    heading: 'Graphik, sans-serif',
   },
   lineHeights: { body: 1.5, heading: 1.125 },
   fontSizes: [0, 1, 2, 3, 4, 5].map(

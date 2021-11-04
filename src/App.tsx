@@ -2,6 +2,14 @@
 import { ThemeProvider } from 'styled-components'
 import theme from './theme'
 
+/* Slides */
+import SlideCover from './Slides/Cover'
+import SlideGreenerGrass from './Slides/GreenerGrass'
+import SlideBartleyInternetOfConstruction from './Slides/BartleyInternetOfConstruction'
+import SlideDavisAppSpecificity from './Slides/DavisAppSpecificity'
+import SlideANewSetOfTools from './Slides/ANewSetOfTools'
+import SlideAvenues from './Slides/Avenues'
+
 /* Components */
 import FlexContainer from './Container'
 import List from './List'
@@ -24,12 +32,44 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
+        <SlideCover />
+        <SlideGreenerGrass />
+        <SlideBartleyInternetOfConstruction />
+        <SlideDavisAppSpecificity />
+        <SlideANewSetOfTools />
+
+        <SlideAvenues />
+
         <Slide>
-          <FlexContainer direction="column">
-            <Title>Greener Grass</Title>
-            <span>CI/CD in early design stages (and why we need it)</span>
+          <SlideHeader>More</SlideHeader>
+          <FlexContainer>
+            <img src="/assets/pipeline.png" width="40%" />
+            <div>
+              <List>
+                Build a pipeline, solve one or two pain points
+                <li>Figma Connector or SVG Transport</li>
+                <li>Build a test runner / engine for serverless functions</li>
+                <li>Project Dashboard</li> with simple queries?
+                <li>
+                  Build a couple <em>Design Services</em> plugged into different
+                  <br />
+                  points along the design process:
+                  <List>
+                    <li>Room connectivity graph?</li>
+                    <li>Escape routes?</li>
+                    <li>A11y for architecture?</li>
+                  </List>
+                </li>
+                <li>
+                  Investigate interop: Spectle's schema is intentionally <br />
+                  fluid. How connect apps to such data? <em>"Data Shaper"?</em>
+                </li>
+                <li>How to bundle up continuous integration?</li>
+              </List>
+            </div>
           </FlexContainer>
         </Slide>
+
         {/* <Slide>
           <SlideHeader>How to follow this talk</SlideHeader>
           <FlexContainer direction={'column'}>
@@ -46,28 +86,8 @@ function App() {
             </div>
           </FlexContainer>
         </Slide> */}
-        <Slide>
-          <FlexContainer>
-            <Svg image={VennDiagram} />
-          </FlexContainer>
-        </Slide>
-        <Slide>
-          <SlideHeader>Greener Grass…</SlideHeader>
-          <FlexContainer>
-            <img src="/assets/greener-grass.png" width="25%" />
-            <div>
-              Managing Complexity in Software Development
-              <List>
-                <li>Version Control</li>
-                <li>Functionality Modules</li>
-                <li>Continuous Integration / Continuous Delivery</li>
-                <li>Unit tests and Test Driven Development</li>
-              </List>
-            </div>
-          </FlexContainer>
-        </Slide>
 
-        <Slide>
+        {/* <Slide>
           <SlideHeader>Version Control</SlideHeader>
           <FlexContainer>
             <FlexContainer direction="column">
@@ -145,29 +165,117 @@ function App() {
             <Title>How can we get there?</Title>
           </FlexContainer>
         </Slide>
+
         <Slide>
-          <SlideHeader>The Internet of Construction</SlideHeader>
-          "The Future of Revit is an API"
+          <FlexContainer>
+            <Title>Building Blocks of an Internet of Construction</Title>
+          </FlexContainer>
+        </Slide>
+        <Slide>
+          <SlideHeader>Grasshopper, Rhino Compute, and Hops</SlideHeader>
+          <FlexContainer direction="column">
+            <img src="/assets/hops-overview.png" width="1000" />
+            <List>
+              <li>Headless* Rhino, called over a Web Api</li>
+              <li>Deployed on a local server on in the cloud</li>
+              <li>Functions can be either Grasshopper scripts or code</li>
+              <li>Can integrate with web apps!</li>
+            </List>
+          </FlexContainer>
+        </Slide>
+        <Slide>
+          <SlideHeader>Speckle</SlideHeader>
+          <FlexContainer>
+            <img src="/assets/speckle.png" width="40%" />
+            <List>
+              <li>Data repository</li>
+              <li>Connectors translate data between applications</li>
+              <li>Version control</li>
+              <li>Automation platform</li>
+              <li>Wants to be a platform to build applications on</li>
+              <li>Open Source!</li>
+            </List>
+          </FlexContainer>
+        </Slide>
+        <Slide>
+          <SlideHeader>Hypar</SlideHeader>
+          <FlexContainer>
+            <img src="/assets/hypar.png" width="40%" />
+            <List>
+              <li>
+                Compose Buildings from funcional modules <br />
+                (think a façade module, a roofing module…)
+              </li>
+              <li>
+                Surfaces an inherent problem in the balance
+                <br /> between engineering and craft: <br />
+                <em>«The Tyranny of the Default»</em>
+              </li>
+              <li>Mainly closed source</li>
+            </List>
+          </FlexContainer>
+        </Slide>
+        <Slide>
+          <SlideHeader>Revit? Archicad?</SlideHeader>
+          <FlexContainer>¯\_(ツ)_/¯</FlexContainer>
+        </Slide>
+
+        <Slide>
+          <SlideHeader>A Project Dashboard?</SlideHeader>
           <FlexContainer>
             <FlexContainer direction={'column'}>
-              <img
-                src="/assets/internet-of-construction.png"
-                height={600}
-                width={680}
-              />
-              <a href="https://tom-bartley.medium.com/towards-an-internet-of-construction-6ab9e211c241">
-                by Tom Bartley
-              </a>
+              <img src="/assets/dashboard.png" height={600} width={800} />
             </FlexContainer>
+          </FlexContainer>
+        </Slide>
+
+        <Slide>
+          <SlideHeader>Curiosities…</SlideHeader>
+          <List>
+            <li>A Taxonomy</li>
+            <li>An example project and pipeline</li>
+            <li>A design automation service</li>
             <List>
-              <li>Status quo: Network of federated digital models</li>
-              <li>APIs</li>
-              <li>Services not Products</li>
-              <li>
-                Unbundling means we can swap out parts we don't like and use
-                something else
-              </li>
+              <li>Unit tests</li>
+              <li>Artefact Creation</li>
             </List>
+          </List>
+          { <div>
+            <List>
+              <li>
+                Design ≠ Engineering!
+                <br /> Good architecture is complex, contradictory,
+                idiosyncratic.
+                <br />
+                Do we run danger of optimising out the humanity? <br />
+                (see also:
+                <em>The Tyranny of the Default</em>)
+              </li>
+              <li>How do tools affect the way we think?</li>
+              <li>Design systems</li>
+            </List>
+          </div>
+        </Slide> */}
+        {/* <Slide>
+          <SlideHeader>
+            More Unstructured Interests, rambling thoughts:
+          </SlideHeader>
+          <List>
+            <li>
+              Orchestration: How to manage the parts of our Internet of
+              Construction. Microservices?
+            </li>
+            <li>
+              And adjacent to that: How can we make these things nimble and
+              pluggable, so that small shops can use them and not only the
+              juggernauts
+            </li>
+          </List>
+        </Slide> */}
+        {/*
+        <Slide>
+          <FlexContainer>
+            <Svg image={VennDiagram} />
           </FlexContainer>
         </Slide>
 
@@ -224,137 +332,20 @@ function App() {
             </List>
           </FlexContainer>
         </Slide>
+
         <Slide>
-          <FlexContainer>
-            <Title>Building Blocks of an Internet of Construction</Title>
-          </FlexContainer>
-        </Slide>
-        <Slide>
-          <SlideHeader>Grasshopper, Rhino Compute, and Hops</SlideHeader>
-          <FlexContainer direction="column">
-            <img src="/assets/hops-overview.png" width="1000" />
-            <List>
-              <li>
-                <s>Headless</s> Rhino, called over a Web Api
-              </li>
-              <li>Deployed on a local server on in the cloud</li>
-              <li>Functions can be either Grasshopper scripts or code</li>
-              <li>Can integrate with web apps!</li>
-            </List>
-          </FlexContainer>
-        </Slide>
-        <Slide>
-          <SlideHeader>Speckle</SlideHeader>
-          <FlexContainer>
-            <img src="/assets/speckle.png" width="40%" />
-            <List>
-              <li>Data repository</li>
-              <li>Connectors translate data between applications</li>
-              <li>Version control</li>
-              <li>Automation platform</li>
-              <li>Wants to be a platform to build applications on</li>
-              <li>Open Source!</li>
-            </List>
-          </FlexContainer>
-        </Slide>
-        <Slide>
-          <SlideHeader>Hypar</SlideHeader>
-          <FlexContainer>
-            <img src="/assets/hypar.png" width="40%" />
-            <List>
-              <li>
-                Compose Buildings from funcional modules <br />
-                (think a façade module, a roofing module…)
-              </li>
-              <li>
-                Surfaces an inherent problem in the balance
-                <br /> between engineering and craft: <br />
-                <em>«The Tyranny of the Default»</em>
-              </li>
-              <li>Mainly closed source</li>
-            </List>
-          </FlexContainer>
-        </Slide>
-        <Slide>
-          <SlideHeader>Revit? Archicad?</SlideHeader>
-          <FlexContainer>¯\_(ツ)_/¯</FlexContainer>
-        </Slide>
-        <Slide>
-          <FlexContainer>
-            <Title>Now what</Title>
-          </FlexContainer>
-        </Slide>
-        <Slide>
-          <SlideHeader>Possible Avenues</SlideHeader>
-          <FlexContainer>
-            <img src="/assets/pipeline.png" width="40%" />
-            <div>
-              <List>
-                Build a pipeline, solve one or two pain points
-                <li>Figma Connector or SVG Transport</li>
-                <li>Build a test runner / engine for serverless functions</li>
-                <li>Project Dashboard</li> with simple queries?
-                <li>
-                  Build a couple <em>Design Services</em> plugged into different
-                  <br />
-                  points along the design process:
-                  <List>
-                    <li>Room connectivity graph?</li>
-                    <li>Escape routes?</li>
-                    <li>A11y for architecture?</li>
-                  </List>
-                </li>
-                <li>
-                  Investigate interop: Spectle's schema is intentionally <br />
-                  fluid. How connect apps to such data? <em>"Data Shaper"?</em>
-                </li>
-                <li>How to bundle up continuous integration?</li>
-              </List>
-            </div>
-          </FlexContainer>
-        </Slide>
-        <Slide>
-          <SlideHeader>Curiosities…</SlideHeader>
-          {/* <List>
-            <li>A Taxonomy</li>
-            <li>An example project and pipeline</li>
-            <li>A design automation service</li>
-            <List>
-              <li>Unit tests</li>
-              <li>Artefact Creation</li>
-            </List>
-          </List> */}
-          <div>
-            <List>
-              <li>
-                Design ≠ Engineering!
-                <br /> Good architecture is complex, contradictory,
-                idiosyncratic.
-                <br />
-                Do we run danger of optimising out the humanity? <br />
-                (see also:
-                <em>The Tyranny of the Default</em>)
-              </li>
-              <li>How do tools affect the way we think?</li>
-              <li>Design systems</li>
-            </List>
-          </div>
-        </Slide>
-        {/* <Slide>
           <SlideHeader>
-            More Unstructured Interests, rambling thoughts:
+            But we're already doing <em>X</em> in Revit!
           </SlideHeader>
-          <List>
-            <li>
-              Orchestration: How to manage the parts of our Internet of
-              Construction. Microservices?
-            </li>
-            <li>
-              And adjacent to that: How can we make these things nimble and
-              pluggable, so that small shops can use them and not only the
-              juggernauts
-            </li>
-          </List>
+          <FlexContainer>
+            <FlexContainer direction={'column'}>
+              <img src="/assets/macleamy.jpg" height={600} width={680} />
+              <a href="https://www.danieldavis.com/macleamy/">
+                The MacLeamy Curve should never be shown without linking to this
+                article.
+              </a>
+            </FlexContainer>
+          </FlexContainer>
         </Slide> */}
       </ThemeProvider>
     </div>
