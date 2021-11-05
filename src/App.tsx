@@ -34,8 +34,8 @@ function App() {
       <ThemeProvider theme={theme}>
         <SlideCover />
         <SlideGreenerGrass />
-        <SlideBartleyInternetOfConstruction />
         <SlideDavisAppSpecificity />
+        <SlideBartleyInternetOfConstruction />
         <SlideANewSetOfTools />
 
         <SlideAvenues />
