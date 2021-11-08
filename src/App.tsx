@@ -18,6 +18,7 @@ import SlideHeader from './SlideHeader'
 import Svg from './Svg'
 import TestDashboard from './TestDashboard'
 import Title from './Title'
+import Timeline from './Timeline'
 
 /* Images */
 import { ReactComponent as VennDiagram } from './venn-diagram.svg'
@@ -67,7 +68,7 @@ function App() {
               <List>
                 <li>Market Research</li>
                 <List>
-                  <li>Gather User stories</li>
+                  <li>Collect User stories</li>
                   <li>Assign them to products</li>
                 </List>
                 <li>Prior Art</li>
@@ -95,6 +96,13 @@ function App() {
                 <li>Ship it?</li>
               </List>
             </div>
+          </FlexContainer>
+        </Slide>
+
+        <Slide>
+          <SlideHeader>Battle Plan</SlideHeader>
+          <FlexContainer>
+            <Timeline />
           </FlexContainer>
         </Slide>
 
