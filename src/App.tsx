@@ -41,6 +41,64 @@ function App() {
         <SlideAvenues />
 
         <Slide>
+          <SlideHeader>Pillars</SlideHeader>
+          <FlexContainer direction="row">
+            <div>
+              <h3>Theoretical Framework: Why?</h3>
+              <List>
+                <li>
+                  Research question: How does an <br />
+                  automation tool for AEC need to work like?
+                  <br /> What are the appropriate levels <br />
+                  of (technical) abstraction?
+                </li>
+                <li>Literature review</li>
+                <li>Document process</li>
+                <li>Show intuitive use cases</li>
+                <li>
+                  As concise as possible, as <br />
+                  thorough as necessary
+                </li>
+              </List>
+            </div>
+            <div>
+              <h3>User + Product needs: What?</h3>
+
+              <List>
+                <li>Market Research</li>
+                <List>
+                  <li>Gather User stories</li>
+                  <li>Assign them to products</li>
+                </List>
+                <li>Prior Art</li>
+                <List>
+                  <li>Github Actions</li>
+                  <li>IFTTT</li>
+                  <li>Home Assistant</li>
+                  <li>NodeRed</li>
+                  <li>Grasshopper / Swarm</li>
+                </List>
+                <li>Distill</li>
+                <List>
+                  <li>Product needs / "Vision"</li>
+                  <li>Scope: What's a / the MVP? What are stretch goals?</li>
+                </List>
+              </List>
+            </div>
+            <div>
+              <h3>Implementation: How?</h3>
+              <List>
+                <li>(Get a grip on stack + architecture)</li>
+                <li>Assess Technical Feasability</li>
+                <li>Design Software Architecture</li>
+                <li>Build it!</li>
+                <li>Ship it?</li>
+              </List>
+            </div>
+          </FlexContainer>
+        </Slide>
+
+        {/* <Slide>
           <SlideHeader>More</SlideHeader>
           <FlexContainer>
             <img src="/assets/pipeline.png" width="40%" />
@@ -68,7 +126,7 @@ function App() {
               </List>
             </div>
           </FlexContainer>
-        </Slide>
+        </Slide> */}
 
         {/* <Slide>
           <SlideHeader>How to follow this talk</SlideHeader>

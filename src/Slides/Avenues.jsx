@@ -12,11 +12,11 @@ const SlideAvenues = () => {
       <SlideHeader>I've got five months…</SlideHeader>
       <FlexContainer>
         <FlexContainer direction="column">
-          <img src="./assets/dashboard.png" width="86%" />A Project Dashboard
+          <img src="./assets/dashboard.png" width="86%" />❌ A Project Dashboard
         </FlexContainer>
         <FlexContainer direction="column">
           <img src="./assets/speckle-swarm.png" width="110%" />
-          Speckle × Swarm
+          ➡️ Speckle × Swarm
         </FlexContainer>
       </FlexContainer>
     </Slide>
