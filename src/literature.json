@@ -1,0 +1,56 @@
+{
+  "Witt": {
+    "Machine Epistemology": {
+      "author": { "firstName": "Andrew J.", "surname": "Witt" },
+      "title": "A Machine Epistemology in Architecture. Encapsulated Knowledge and the Instrumentation of Design",
+      "kind": "Article",
+      "source": {
+        "name": "Candide. Journal for Architectural Knowledge",
+        "issue": "No. 03"
+      },
+      "publisher": { "name": "Transcript Verlag", "location": "Bielefeld" },
+      "url": ""
+    }
+  },
+  "Lynn": {
+    "Folding in Architecture": {
+      "author": { "firstName": "Greg", "surname": "Lynn" },
+      "title": "Folding in Architecture",
+      "year": 2000,
+      "publisher": { "name": "Wiley-Academy", "location": "London" }
+    }
+  },
+  "Normann": {
+    "Design of Everyday Things": {
+      "author": { "firstName": "Don", "surname": "Normann" },
+      "title": "The Design of Everyday Things",
+      "year": 2013,
+      "publisher": { "name": "Basic Books", "location": "New York" }
+    }
+  },
+  "Susskind, Susskind": {
+    "Future of Professions": {
+      "author": [
+        { "firstName": "Richard", "surname": "Susskind" },
+        { "firstName": "Daniel", "surname": "Susskind" }
+      ],
+      "title": "The Future of Professions. How Technology Will Transform the Work of Human Experts",
+      "year": 2015,
+      "publisher": { "name": "Oxford University Press", "location": "Oxford" }
+    }
+  },
+  "Thaler, Sunstein": {
+    "Nudge": {
+      "author": [
+        { "firstName": "Richard H.", "surname": "Thaler" },
+        { "firstName": "Cass R.", "surname": "Sunstein" }
+      ],
+      "title": "Nudge. Improving Decisions About Health, Wealth, and Happiness",
+      "year": 2008,
+      "publisher": {
+        "name": "Yale University Press",
+        "location": "New Haven & London"
+      }
+    }
+  }
+}
