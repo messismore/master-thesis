@@ -9,3 +9,5 @@ Richard Susskind, Daniel Susskind: The Future of the Professions: How Technology
 (BRUNELLESCHI’S PERSPECTIVE PANELS. RUPTURE AND CONTINUITY IN THE HISTORY OF THE IMAGE Johannes Grave)
 
 Prager, F. D., Scaglia, G. Brunelleschi: Studies of His Technology and Inventions.
+
+Mark Burry: Scripting cultures

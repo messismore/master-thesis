@@ -132,7 +132,7 @@ h5 {
   <main>
     <h1>Speckle CI</h1>
     <h2>Motivation</h2>
-    <Comment>Elevator Pitch/Abstract</Comment>
+    <Comment>Abstract</Comment>
     <p>
       This thesis explores the potential of networked, composable tools as a
       means to capture and distribute organisational knowledge. Drawing from the
@@ -146,71 +146,44 @@ h5 {
       knowledge.
     </p>
 
-    <h3>Present and future practice</h3>
-
-    <Comment
-      >The profession is changing. It needs to change more. And it will.
-    </Comment>
-
-    <ul>
-      <li>
-        Industry specific: Arch. in focus of intersecting crises: climate,
-        carbon, resource use, land, etc
-      </li>
-      <li>General: rationalisation -> tech (-> Future of Professions)</li>
-    </ul>
-
-    <h4>Industry / discipline specific</h4>
-    <h5>The challenges</h5>
+    <h3>Performance, Complexity, Precision</h3>
 
     <p>
       Architecture, and the built environment in general, share the paradoxical
       quality of being both accelerator and key to many of the overlapping and
-      mutually reinforcing crises unfolding around us. Architects and planners
-      are tasked to deliver the seemingly impossible: Buildings that store
-      carbon rather than emit greenhouse gases. Cities that preserve
-      biodiversity rather than devour habitats through endless sprawl. And
-      neighbourhoods that foster community rather than isolate and displace
-      vulnerable demographics.
+      mutually reinforcing crises unfolding around us. In order to unlock its
+      potential to store carbon rather than emit greenhouse gases, preserve
+      biodiversity rather than devour habitats, and foster community rather than
+      divide and displace vulnerable demographics, planners need to radically
+      transform the way we design, build, operate, and recycle our built
+      environment. Materialising this new sustainable, robust, and resilient
+      architecture calls for new levels of precision while facilitating
+      deliberate experimentation, the integration of unfamiliar and rapidly
+      evolving areas of knowledge as well as the rediscovery and cultivation of
+      old ones, and the navigation of unprecedented complexity in order to
+      arrive at something simple.
+    </p>
+
+    <p>
+      This collective learning process is interacting with and accelerating
+      broader trends that affect not only the AEC industry, but knowledge work
+      in general: 1. the drive to increase efficiencies, 2. the emergence of new
+      players and business models, 3. the move away from bespoke services, and,
+      finally, 4. the decomposition and 5. routinisation of professional
+      work.<BaseCitation
+        :work="literature['Susskind, Susskind']['Future of Professions']"
+      ></BaseCitation>
     </p>
     <p>
-      The erection and operation of the built environment accounts for roughly
-      forty percent of annual greenhouse gas emissions, resource consumption,
-      and waste.<BaseCitation></BaseCitation>
-    </p>
-    <p>
-      planners need to radically transform the way we design, build, operate,
-      and recycle our built environment.
-    </p>
-    <p>
-      As people flock to cities and urbanisation accelerates, there is
-      unprecedented demand for new housing. This demand will
-    </p>
-    <p>
-      Housing Crisis. Population growth, people move to the centres,
-      gentrification, displacement, alienation, affordability,
-    </p>
-    <p>land use, sprawl -> biodiversity Crisis</p>
-    <p>It's seems paradoxical: being both accelerator and key</p>
-    <p>While its role in the emission of greenhouse gases</p>
-    <p>
-      The erection and operation of buildings contributes roughly 40% of annual
-      greenhouse gas emissions. At the same time, it holds promise of acting as
-      a major carbon sink. As people flock to cities and urbanisation
-      accelerates, there is unprecedented demand for new housing, while
-      Architecture is tasked to solve the unsolvable. Build The world needs
-      better buildings. We need to rapidly change how we make them. Climate
-      Crisis, Resource Consumption, etc. Need to be sustainable, robust,
-      resilient.
-    </p>
-    <h5>How the industry reacts</h5>
-    <p>
-      Architecture is a key player in all of these crises: House more people
-      then ever in rapidly shifting climates, stop the leapfrog in all areas,
-      fast. The built environment is causing 40% of The erection and operation
-      is climate crisis, conflicts over the use of land and resources. As a
-      consequence there a more and more performance requirements, such as
-      energy, carbon, climate resilience put forward.
+      Conventional efforts to increase the efficiency of construction have
+      focused on increasing the precision in the early design stages,
+      effectively frontloading the design effort. There is a limit to this
+      approach because it assumes a linear process, which design, a
+      <BaseCitation
+        :work="literature.Stefanescu['Digital Design Communication']"
+        >wicked problem</BaseCitation
+      >
+      is not.
     </p>
 
     <figure>
@@ -218,25 +191,18 @@ h5 {
       <figcaption>
         Paulson, Boyd C. 1976. “Designing to Reduce Construction Costs.” Journal
         of the Construction Division 102 (4)
-        <a> Source </a> Conventional efforts to increase the efficiency of
-        construction have focused on increasing the precision in the early
-        design stages. I might take this one out.
+        <a> Source </a>
       </figcaption>
     </figure>
 
-    <h4>Broader trends: The future of knowledge work</h4>
-
-    <p>
-      But there a mechanisms at work that are broader than this single
-      profession. In The Future of Professions, the authors argue, that all
-      professions undergo specialisation. While a master builder might have been
-      able to understand each and every Gewerk on his site, nowadays even a
-      curtain wall is an area of knowledge so vast, it merits its own
-      specialists. (→ The Future of Professions)
-    </p>
-
     <h3>Organisations and Workflows: The process as the product</h3>
 
+    <p>
+      To react to these new forces, we have seen the emergence of highly
+      specialised players, that address a narrow vertical slice of the market:
+      Katerra, Nabr, and Gropyus for the residential market, WeWork for office
+      spaces.
+    </p>
     <p>
       Historically architecture firms have been horizontally organised: They
       would design single family homes to whole urban areas.
@@ -248,13 +214,6 @@ h5 {
         Sawtooth diagram by Phil Bernstein taken from Daniel Davis
       </figcaption>
     </figure>
-
-    <p>
-      To react to these new forces, we have seen the emergence of highly
-      specialised players, that address a narrow vertical slice of the market:
-      Katerra, Nabr, and Gropyus for the residential market, WeWork for office
-      spaces.
-    </p>
 
     <figure style="display: flex; max-width: 30ch">
       <img src="@/assets/davis-horizontal.png" />
@@ -268,12 +227,14 @@ h5 {
     </p>
 
     <blockquote>
-      The move away from bespoke services represents a shift for the industry.
-      In the past, many believed that mass-production was the key to efficiency,
-      with the automotive and aeronautical industries often heralded as north
-      stars. But attempts to standardize the output haven’t prevailed, with
-      attention now shifting to focus on standardizing the process instead.
-      (Davis on The Future of Professions)
+      <BaseCitation :work="literature.Davis['Future of Professions']"
+        >The move away from bespoke services represents a shift for the
+        industry. In the past, many believed that mass-production was the key to
+        efficiency, with the automotive and aeronautical industries often
+        heralded as north stars. But attempts to standardize the output haven’t
+        prevailed, with attention now shifting to focus on standardizing the
+        process instead.</BaseCitation
+      >
     </blockquote>
 
     <p>
@@ -378,7 +339,11 @@ h5 {
         page="11"
       />
       they can manipulate geometries, simulate physical phenomena, and draw
-      insights from data using statistical and machine learning techniques.
+      insights from data using statistical and machine learning techniques. Mark
+      Burry argues that scripting and parametric modelling can be described as a
+      modern practice of toolmaking<BaseCitation
+        :work="literature.Burry['Scripting Cultures']"
+      ></BaseCitation>
     </p>
 
     <h4>Tools As Encapsulated Knowledge</h4>

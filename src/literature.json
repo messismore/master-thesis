@@ -1,15 +1,23 @@
 {
-  "Witt": {
-    "Machine Epistemology": {
-      "author": { "firstName": "Andrew J.", "surname": "Witt" },
-      "title": "A Machine Epistemology in Architecture. Encapsulated Knowledge and the Instrumentation of Design",
-      "kind": "Article",
-      "source": {
-        "name": "Candide. Journal for Architectural Knowledge",
-        "issue": "No. 03"
-      },
-      "publisher": { "name": "Transcript Verlag", "location": "Bielefeld" },
-      "url": ""
+  "Burry": {
+    "Scripting Cultures": {
+      "author": { "firstName": "Mark", "surname": "Burry" },
+      "title": "Scripting Cultures",
+      "kind": "Book",
+      "year": 2011,
+      "publisher": { "name": "Wiley", "location": "Chichester" }
+    }
+  },
+  "Davis": {
+    "Future of Professions": {
+      "author": { "firstName": "Daniel", "surname": "Davis" },
+      "title": "What ‘The Future of The Professions’ Reveals About the Future of Architecture",
+      "kind": "Blog Article",
+      "url": "https://www.danieldavis.com/future-of-the-professions/"
+    },
+    "Modelled on Software Engineering": {
+      "author": { "firstName": "Daniel", "surname": "Davis" },
+      "title": "Modelled on Software Engineering: Flexible Parametric Models in the Practice of Architecture"
     }
   },
   "Lynn": {
@@ -26,6 +34,14 @@
       "title": "The Design of Everyday Things",
       "year": 2013,
       "publisher": { "name": "Basic Books", "location": "New York" }
+    }
+  },
+  "Stefanescu": {
+    "Digital Design Communication": {
+      "author": { "firstName": "Dimitrie", "surname": "Stefanescu" },
+      "title": "Alternate Means of Digital Design Communication",
+      "year": 2020,
+      "publisher": { "name": "UCL", "location": "London" }
     }
   },
   "Susskind, Susskind": {
@@ -51,6 +67,19 @@
         "name": "Yale University Press",
         "location": "New Haven & London"
       }
+    }
+  },
+  "Witt": {
+    "Machine Epistemology": {
+      "author": { "firstName": "Andrew J.", "surname": "Witt" },
+      "title": "A Machine Epistemology in Architecture. Encapsulated Knowledge and the Instrumentation of Design",
+      "kind": "Article",
+      "source": {
+        "name": "Candide. Journal for Architectural Knowledge",
+        "issue": "No. 03"
+      },
+      "publisher": { "name": "Transcript Verlag", "location": "Bielefeld" },
+      "url": ""
     }
   }
 }
