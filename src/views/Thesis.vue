@@ -215,14 +215,44 @@ h5 {
     <h3>Organisations and Workflows: The process as the product</h3>
 
     <p>
-      In reaction to these new forces, we have seen the emergence of highly
-      specialised players, that address a narrow vertical slice of the market:
-      Katerra, Nabr, and Gropyus for the residential market, WeWork for office
-      spaces.
+      Historically, architecture firms have been horizontally organised: They
+      offer design services over a wide range of scales and typologies. Previous
+      and successive project stages are usually carried out by other disciplines
+      such as developers or construction firms. It is not uncommon for the
+      design stage itself to be fragmented into feasibility studies, preliminary
+      and final design, tender documentation, etc., and that work be carried out
+      by different design firms. This approach is problematic because 1. again,
+      it assumes a linear design process with clean interfaces between design
+      stages and 2. data exchange between the stages comes with a lot of
+      friction. Dimitrie Stefanescu argues that this is due to the complexity of
+      the modelled domain: Architecture.
     </p>
+
+    <figure>
+      <img src="@/assets/davis-sawtooth.webp" />
+      <figcaption>
+        Sawtooth diagram by Phil Bernstein taken from Daniel Davis
+      </figcaption>
+    </figure>
+
     <p>
-      Historically architecture firms have been horizontally organised: They
-      would design single family homes to whole urban areas.
+      Daniel Davis argues that this is because the horizontal organisation is
+      mirrored in each disciplines' tools.
+    </p>
+
+    <figure>
+      <img src="@/assets/davis-horizontal.png" />
+      <figcaption>Daniel Davis</figcaption>
+    </figure>
+    <figure style="display: flex; max-width: 30ch">
+      <img src="@/assets/davis-vertical.png" />
+      <figcaption>Daniel Davis</figcaption>
+    </figure>
+    <p>
+      In reaction to these new forces, we have seen the emergence of highly
+      specialised players that address a narrow vertical slice of the market:
+      Katerra, Nabr, and Gropyus for the residential market, WeWork for office
+      spaces. By vertical integration they hope to 1.
     </p>
 
     <blockquote>
@@ -235,19 +265,6 @@ h5 {
         process instead.</BaseCitation
       >
     </blockquote>
-
-    <figure>
-      <img src="@/assets/davis-sawtooth.webp" />
-      <figcaption>
-        Sawtooth diagram by Phil Bernstein taken from Daniel Davis
-      </figcaption>
-    </figure>
-
-    <figure style="display: flex; max-width: 30ch">
-      <img src="@/assets/davis-horizontal.png" />
-      <img src="@/assets/davis-vertical.png" />
-      <figcaption>Daniel Davis</figcaption>
-    </figure>
 
     <p>
       I would argue that standardising might not be the correct term here.
@@ -287,13 +304,8 @@ h5 {
       of which are bound to share similarities.</Comment
     >
 
-    <h3>Architects as Toolmakers</h3>
+    <h3>Architect and Tool</h3>
     <h4>Brunelleschi's Experiment</h4>
-
-    <Comment
-      >Architects have a history as toolmakers, tools are important to the
-      discipline</Comment
-    >
 
     <p class="introduction">
       Someday in the early 1400s Filippo Brunelleschi steps into the central
