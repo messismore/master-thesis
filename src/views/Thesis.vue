@@ -129,10 +129,11 @@ h5 {
 </style>
 
 <template>
+  <router-link style="display: none" to="/Prezo">Prezo</router-link>
   <main>
     <h1>Speckle CI</h1>
     <h2>Motivation</h2>
-    <Comment>Abstract</Comment>
+    <h3>Abstract</h3>
     <p>
       This thesis explores the potential of networked, composable tools as a
       means to capture and distribute organisational knowledge. Drawing from the
@@ -146,7 +147,9 @@ h5 {
       knowledge.
     </p>
 
-    <h3>Performance, Complexity, Precision</h3>
+    <h3>
+      Performance, Complexity, Precision, and the Future of Knowledge Work
+    </h3>
 
     <p>
       Architecture, and the built environment in general, share the paradoxical
@@ -174,17 +177,6 @@ h5 {
         :work="literature['Susskind, Susskind']['Future of Professions']"
       ></BaseCitation>
     </p>
-    <p>
-      Conventional efforts to increase the efficiency of construction have
-      focused on increasing the precision in the early design stages,
-      effectively frontloading the design effort. There is a limit to this
-      approach because it assumes a linear process, which design, a
-      <BaseCitation
-        :work="literature.Stefanescu['Digital Design Communication']"
-        >wicked problem</BaseCitation
-      >
-      is not.
-    </p>
 
     <figure>
       <picture> <img src="@/assets/paulsons-curve.jpg" /></picture>
@@ -195,10 +187,35 @@ h5 {
       </figcaption>
     </figure>
 
+    <p>
+      Besides being necessitated by the focus on performance and precision
+      outlined above, increased efficiencies in the planning process –
+      delivering
+      <BaseCitation
+        :work="literature['Susskind, Susskind']['Future of Professions']"
+        >more for less</BaseCitation
+      >– also hold the promise of providing more people with access to well
+      planned spaces. Conventional efforts to increase the efficiency of
+      construction have focused on increasing the precision in the early design
+      stages, effectively frontloading the design effort. There is a limit to
+      the effectiveness of this approach, however, because it assumes a linear
+      process, which design, a
+      <BaseCitation
+        :work="literature.Stefanescu['Digital Design Communication']"
+        page="36"
+        >wicked problem</BaseCitation
+      >, is not. Daniel Davis shows that software engineering practices that
+      leverage agile processes allow to preserve designers' efficacy to
+      introduce changes in later design stages.<BaseCitation
+        :work="literature.Davis['Modelled on Software Engineering']"
+        page="198"
+      ></BaseCitation>
+    </p>
+
     <h3>Organisations and Workflows: The process as the product</h3>
 
     <p>
-      To react to these new forces, we have seen the emergence of highly
+      In reaction to these new forces, we have seen the emergence of highly
       specialised players, that address a narrow vertical slice of the market:
       Katerra, Nabr, and Gropyus for the residential market, WeWork for office
       spaces.
@@ -207,6 +224,17 @@ h5 {
       Historically architecture firms have been horizontally organised: They
       would design single family homes to whole urban areas.
     </p>
+
+    <blockquote>
+      <BaseCitation :work="literature.Davis['Future of Professions']"
+        >The move away from bespoke services represents a shift for the
+        industry. In the past, many believed that mass-production was the key to
+        efficiency, with the automotive and aeronautical industries often
+        heralded as north stars. But attempts to standardize the output haven’t
+        prevailed, with attention now shifting to focus on standardizing the
+        process instead.</BaseCitation
+      >
+    </blockquote>
 
     <figure>
       <img src="@/assets/davis-sawtooth.webp" />
@@ -222,22 +250,6 @@ h5 {
     </figure>
 
     <p>
-      This is how Katerra and the likes address this problem. But I disagree.
-      But I have only my intuition and nothing to back it up. Noell: Autismus
-    </p>
-
-    <blockquote>
-      <BaseCitation :work="literature.Davis['Future of Professions']"
-        >The move away from bespoke services represents a shift for the
-        industry. In the past, many believed that mass-production was the key to
-        efficiency, with the automotive and aeronautical industries often
-        heralded as north stars. But attempts to standardize the output haven’t
-        prevailed, with attention now shifting to focus on standardizing the
-        process instead.</BaseCitation
-      >
-    </blockquote>
-
-    <p>
       I would argue that standardising might not be the correct term here.
       Rather than towards standardisation, organisations should move towards
       viewing the process as part of their product. Not standardised, but
@@ -251,9 +263,7 @@ h5 {
       Effort in den Teil der Wertschöpfung stecken können, wo wir meaningful
       impact hat. Vergleiche das neue digitale Handwerk, dass seine Produkte
       durch weitestgehend automatisierte Vertriebskanäle auf der ganzen Welt
-      vertreibt. (Automation heißt aber auch, dass deren Werke effektiv kopiert
-      werden, aber selbst hier gibt es ein positives Reading: So werden Ideen
-      schnell möglichst vielen zugänglich gemacht.)
+      vertreibt.
     </p>
 
     <OrganisationalKnowledge style="max-width: 30ch; margin-inline: auto" />
@@ -263,6 +273,18 @@ h5 {
       and design knowledge can be instrumentally encapsulated in machines. It
       represents not a barrier to advancement of architectural knowledge but a
       great opportunity.</BaseCitation
+    >
+
+    <Comment
+      >Composability aids reusability. Architectural design projects, unlike
+      most software engineering efforts, usually have a lifetime of only several
+      months, making it hard to justify the effort involved in applying
+      engineering practices to toolmaking.<BaseCitation
+        :work="literature.Davis['Modelled on Software Engineering']"
+        page="195"
+      ></BaseCitation>
+      This changes when we shift our focus from project to process, iterations
+      of which are bound to share similarities.</Comment
     >
 
     <h3>Architects as Toolmakers</h3>
@@ -347,8 +369,6 @@ h5 {
     </p>
 
     <h4>Tools As Encapsulated Knowledge</h4>
-
-    <Comment>Tools encapsulate knowledge</Comment>
 
     <p>
       In his essay "A Machine Epistemology", Andrew Witt shows that the body of

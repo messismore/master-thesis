@@ -17,7 +17,8 @@
     },
     "Modelled on Software Engineering": {
       "author": { "firstName": "Daniel", "surname": "Davis" },
-      "title": "Modelled on Software Engineering: Flexible Parametric Models in the Practice of Architecture"
+      "title": "Modelled on Software Engineering: Flexible Parametric Models in the Practice of Architecture",
+      "year": 2013
     }
   },
   "Lynn": {
@@ -73,6 +74,7 @@
     "Machine Epistemology": {
       "author": { "firstName": "Andrew J.", "surname": "Witt" },
       "title": "A Machine Epistemology in Architecture. Encapsulated Knowledge and the Instrumentation of Design",
+      "year": 2010,
       "kind": "Article",
       "source": {
         "name": "Candide. Journal for Architectural Knowledge",
