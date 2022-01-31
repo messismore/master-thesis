@@ -129,7 +129,6 @@ h5 {
 </style>
 
 <template>
-  <router-link style="display: none" to="/Prezo">Prezo</router-link>
   <main>
     <h1>Speckle CI</h1>
     <h2>Motivation</h2>
@@ -814,4 +813,5 @@ h5 {
     <h4>Argo CI</h4>
     <h4>Apache Airflow</h4>
   </main>
+  <router-link to="/Prezo">Prezo</router-link>
 </template>
