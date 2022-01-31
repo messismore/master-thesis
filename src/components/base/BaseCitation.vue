@@ -2,7 +2,7 @@
   <span
     :title="`${work.author.surname}, ${work.author.firstName} ${work.year}: ${work.title}`"
   >
-    <q><slot /></q><span>#</span>
+    <q v-if="this.hasSlotContent"><slot /></q><span>#</span>
   </span>
   <em>{{ work.author.surname }} {{ work.year }}: {{ page }}</em>
 </template>
@@ -26,6 +26,11 @@ export default defineComponent({
       type: String,
       required: false,
     },
+  },
+  data() {
+    return {
+      hasSlotContent: Object.keys(this.$slots).length > 0,
+    }
   },
   inject: ['theme'],
 })
