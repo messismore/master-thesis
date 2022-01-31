@@ -1,10 +1,10 @@
 <template>
   <span
-    :title="`${work.author.surname}, ${work.author.firstName}: ${work.title}`"
+    :title="`${work.author.surname}, ${work.author.firstName} ${work.year}: ${work.title}`"
   >
     <q><slot /></q><span>#</span>
   </span>
-  <em>{{ work.author.surname }}: {{ page }}</em>
+  <em>{{ work.author.surname }} {{ work.year }}: {{ page }}</em>
 </template>
 
 <script>
