@@ -1,17 +1,18 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 
-import BaseImage from '../components/base/BaseImage.vue'
 import BaseCitation from '../components/base/BaseCitation.vue'
-
+import BrunelleschiMirror from '../components/figures/BrunelleschiMirror.vue'
+import Ellipsographs from '@/components/figures/Ellipsographs.vue'
 import HumansVsComputers from '../components/figures/HumansVsComputers.vue'
 import OrganisationalKnowledge from '../components/figures/OrganisationalKnowledge.vue'
 
 export default defineComponent({
   name: 'Thesis',
   components: {
-    BaseImage,
     BaseCitation,
+    BrunelleschiMirror,
+    Ellipsographs,
     HumansVsComputers,
     OrganisationalKnowledge,
   },
@@ -146,9 +147,9 @@ h5 {
       knowledge.
     </p>
 
-    <h3>
-      Performance, Complexity, Precision, and the Future of Knowledge Work
-    </h3>
+    <h3>A New Context</h3>
+
+    <h4>Performance, Complexity, Precision</h4>
 
     <p>
       Architecture, and the built environment in general, share the paradoxical
@@ -165,6 +166,8 @@ h5 {
       old ones, and the navigation of unprecedented complexity in order to
       arrive at something simple.
     </p>
+
+    <h4>The Future of Knowledge Work</h4>
 
     <p>
       This collective learning process is interacting with and accelerating
@@ -331,20 +334,7 @@ h5 {
       the eye to a T.
     </p>
 
-    <figure style="max-width: 40ch; margin-inline: auto">
-      <picture
-        ><img src="@/assets/brunelleschi-perspective-mirror.jpg"
-      /></picture>
-      <figcaption>
-        Instrument to calculate scale and depth of observed objects, after
-        Filippo Brunelleschi
-        <a
-          href="maitaly.wordpress.com/2011/04/28/brunelleschi-and-the-re-discovery-of-linear-perspective/"
-        >
-          Source
-        </a>
-      </figcaption>
-    </figure>
+    <BrunelleschiMirror style="max-width: 40ch" />
 
     <p>
       We don't know if the scene really played out this way. But Brunelleschi is
@@ -419,18 +409,7 @@ h5 {
       >
     </p>
 
-    <figure>
-      <BaseImage src="adams-geometrical-and-graphical-essays.png" />
-      <figcaption>
-        Drawing instruments as Encapsulated Knowledge and the Instrumentation of
-        Design. George Adams: Geometrical and Graphical Essays (1791)
-        <a
-          href="http://www.candidejournal.net/wp-content/uploads/downloads/2012/02/CAN03_Essay_Witt.pdf"
-        >
-          Source
-        </a>
-      </figcaption>
-    </figure>
+    <Ellipsographs style="width: 85%" />
 
     <p>
       Tools embed and encapsulate knowledge. Design knowledge is captured in

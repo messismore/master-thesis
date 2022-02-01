@@ -1,5 +1,9 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
+
+import BrunelleschiMirror from '@/components/figures/BrunelleschiMirror.vue'
+import Ellipsographs from '@/components/figures/Ellipsographs.vue'
+import RhinoEllipse from '@/components/figures/RhinoEllipse.vue'
 import SlideShow from '../components/SlideShow.vue'
 import SlideContainer from '../components/SlideContainer.vue'
 import SlideCover from '../components/slides/SlideCover.vue'
@@ -7,6 +11,9 @@ import SlideCover from '../components/slides/SlideCover.vue'
 export default defineComponent({
   name: 'Prezo-2',
   components: {
+    BrunelleschiMirror,
+    Ellipsographs,
+    RhinoEllipse,
     SlideShow,
     SlideCover,
     SlideContainer,
@@ -68,12 +75,19 @@ export default defineComponent({
     <SlideContainer
       title="Architects as toolmakers, tools as encapsulated knowledge"
     >
-      <ul>
-        <li>Brunelleschi</li>
-        <li>Ellipsographs</li>
-        <li>Software</li>
-        <li>Skripts and parametric models</li>
-      </ul>
+      <BrunelleschiMirror style="width: 60vw" />
+    </SlideContainer>
+
+    <SlideContainer
+      title="Architects as toolmakers, tools as encapsulated knowledge"
+    >
+      <Ellipsographs style="width: 90vw" />
+    </SlideContainer>
+
+    <SlideContainer
+      title="Architects as toolmakers, tools as encapsulated knowledge"
+    >
+      <RhinoEllipse style="width: 90vw" />
     </SlideContainer>
 
     <SlideContainer title="Speckle"
