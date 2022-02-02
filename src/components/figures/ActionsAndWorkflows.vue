@@ -45,9 +45,9 @@ line {
       <line x1="77%" x2="77%" y1="6%" y2="70%" />
       <FigurePartialAction name="Fetch Data" x="70%" y="10%" />
       <FigurePartialAction name="Filter Elements" x="70%" y="25%" />
-      <FigurePartialAction name="Calculate Carbon" x="70%" y="40%" />
-      <FigurePartialAction name="Create Report" x="70%" y="55%" />
-      <FigurePartialAction name="Upload Result" x="70%" y="70%" />
+      <FigurePartialAction name="Check Setbacks" x="70%" y="40%" />
+      <FigurePartialAction name="Upload Result" x="70%" y="55%" />
+      <FigurePartialAction name="Notify Result" x="70%" y="70%" />
       <g class="labels">
         <text x="20%" y="95%">Actions</text>
         <text x="70%" y="95%">Workflows</text>

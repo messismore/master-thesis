@@ -47,7 +47,9 @@ li + li {
 </style>
 
 <template>
-  <SlideContainer title="A Workflow: Check Setback + Massing">
+  <SlideContainer
+    title="Example of a Focused, Networked Tool: Setback + Massing Checker"
+  >
     <div>
       <div class="column">
         <SetbackChecker />

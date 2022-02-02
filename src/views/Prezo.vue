@@ -4,7 +4,6 @@ import { defineComponent } from 'vue'
 import SlideSpeckleCiConcepts from '@/components/slides/SlideSpeckleCiConcepts.vue'
 import CaseStudies from '@/components/slides/CaseStudies.vue'
 import Ellipsographs from '@/components/figures/Ellipsographs.vue'
-import PlatformForToolmaking from '@/components/slides/PlatformForToolmaking.vue'
 import RhinoEllipse from '@/components/figures/RhinoEllipse.vue'
 import SlideFocusOnProcess from '@/components/slides/SlideFocusOnProcess.vue'
 import SlideShow from '../components/SlideShow.vue'
@@ -20,7 +19,6 @@ export default defineComponent({
     CaseStudies,
     Ellipsographs,
     SlideFocusOnProcess,
-    PlatformForToolmaking,
     RhinoEllipse,
     SlideShow,
     SlideCover,
@@ -44,7 +42,19 @@ li {
 <template>
   <SlideShow>
     <SlideCover />
-    <PlatformForToolmaking />
+    <SlideContainer
+      title="Architects as toolmakers, tools as encapsulated knowledge"
+    >
+      <Ellipsographs style="width: 80vw" />
+    </SlideContainer>
+
+    <SlideContainer title="Design Knowledge and Instrumental Knowledge">
+      <RhinoEllipse style="width: 60vw" />
+    </SlideContainer>
+
+    <SlideSetbackChecker />
+
+    <!--     <PlatformForToolmaking /> -->
 
     <SlideSpeckleCiConcepts />
 
@@ -52,26 +62,14 @@ li {
       <SpeckleCiWireframe />
     </SlideContainer>
 
-    <SlideSetbackChecker />
-
     <SlideSpeckle />
 
     <CaseStudies />
 
-    <SlideContainer
-      title="Architects as toolmakers, tools as encapsulated knowledge"
-    >
-      <Ellipsographs style="width: 90vw" />
-    </SlideContainer>
-
-    <SlideContainer title="Design Knowledge and Instrumental Knowledge">
-      <RhinoEllipse style="width: 90vw" />
-    </SlideContainer>
-
     <SlideFocusOnProcess />
 
     <SlideContainer title="Thank you">
-      <Ellipsographs style="width: 90vw" />
+      <Ellipsographs style="width: 80vw" />
     </SlideContainer>
 
     <SlideContainer title="More Context">

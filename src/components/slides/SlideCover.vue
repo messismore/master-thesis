@@ -1,7 +1,7 @@
 <template>
   <SlideContainer class="slide-cover">
     <div>
-      <h1>A Platform for Toolmaking</h1>
+      <h1>A Platform for <br />Connected Toolmaking</h1>
       <h2>Speckle CI</h2>
     </div>
   </SlideContainer>

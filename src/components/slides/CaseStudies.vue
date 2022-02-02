@@ -24,7 +24,7 @@ li + li {
     <ol>
       <li>Setback + Massing Checker</li>
       <li>Carbon Calculator</li>
-      <li>Bin Layout Tool</li>
+      <li>Bin Layout Tool? Tbd.</li>
     </ol>
   </SlideContainer>
 </template>
