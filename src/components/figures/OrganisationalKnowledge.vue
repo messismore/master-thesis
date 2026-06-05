@@ -3,12 +3,7 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
   name: 'OrganisationalKnowledge',
-  props: {
-    starred: {
-      type: Boolean,
-      default: true,
-    },
-  },
+  props: {},
   inject: ['theme'],
 })
 </script>
@@ -70,7 +65,7 @@ text {
         </svg>
       </foreignObject>
 
-      <text text-anchor="middle" x="40%" y="95%">Organisational Knowledge</text>
+      <text text-anchor="middle" x="40%" y="97%">Organisational Knowledge</text>
       <text dominant-baseline="middle" x="73%" y="10%">Artefact</text>
     </svg>
   </figure>
